@@ -1,7 +1,6 @@
 package com.noobnuby.plugin
 
-import com.noobnuby.plugin.commands.Hello
-import com.noobnuby.plugin.events.JoinQuit
+import com.noobnuby.plugin.commands.FlySpeed
 import org.bukkit.plugin.java.JavaPlugin
 import xyz.icetang.lib.kommand.kommand
 
@@ -14,11 +13,7 @@ class Main : JavaPlugin() {
         logger.info("Enable Plugin!")
 
         kommand {
-            Hello.register(this)
-        }
-
-        server.pluginManager.apply {
-            registerEvents(JoinQuit(),this@Main)
+            FlySpeed.register(this)
         }
     }
 }

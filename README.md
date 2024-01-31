@@ -1,21 +1,10 @@
-# Kotlin Plugin Template
+# FlySpeed-Plugin
 
-코틀린 PaperMC Plugin 템플릿입니다.
+플레이어의 Fly 속도를 조절합니다
 
 # Library
 
 * [Kommand](https://github.com/monun/kommand)
-
-# Configuration
-
-gradle.properties
-
-```gradle
-group=com.noobnuby.plugin (group)
-version=1.0.0 (ver)
-paper_version=1.20.2 (papermc ver)
-copy_dir=/Users/noobnuby (copy folder !not str) 
-```
 
 # Build
 
